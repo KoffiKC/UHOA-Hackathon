@@ -58,7 +58,7 @@ function Submission() {
           </div>
 
           <div>
-            <label htmlFor="images">Images:</label>
+            <label htmlFor="images">Images</label>
             <input
               type="file"
               id="images"
@@ -68,8 +68,9 @@ function Submission() {
             />
           </div>
 
-          <button type="submit">Submit Article</button>
+          <button type="submit">Submit Story</button>
         </form>
+        <p>have more than you can share here? <a href="mailto:hello@thestoryof.us">get in touch</a></p>
       </div>
     )
   }
