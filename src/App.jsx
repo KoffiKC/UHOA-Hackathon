@@ -5,7 +5,7 @@ import "./App.css";
 import Landing from "./pages/Landing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-
+import Submission from "./pages/Submission";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -42,6 +42,7 @@ function App() {
           }
         />
         <Route path="/landing" element={<Landing />} />
+        <Route path="/submission" element={<Submission />} />
       </Routes>
     </BrowserRouter>
   );
