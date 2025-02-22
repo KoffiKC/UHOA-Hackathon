@@ -4,7 +4,8 @@ function Navbar() {
   return (
     <nav>
       <Link to="/">Home</Link>
-      <Link to="/landing">Landing</Link>
+      <Link to="/index">Index</Link>
+      <Link to="/topics">Topics</Link>
     </nav>
   );
 }
