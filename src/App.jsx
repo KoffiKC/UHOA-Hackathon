@@ -6,13 +6,14 @@ import Index from "./pages/Index";
 import Topics from "./pages/Topics";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <BrowserRouter>
-      <Navbar />
+     <Header />
       <Routes>
         <Route
           path="/"

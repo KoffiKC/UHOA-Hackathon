@@ -1,0 +1,61 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between; /* Branding on left, navbar on right */
+    align-items: center;
+    padding: 20px;
+    background-color: #2C2926;
+    color: #fff;
+    width: 100%;
+  }
+  
+  /* Branding section (UHOA + line + subtitle) */
+  .branding {
+    display: flex;
+    flex-direction: column;
+    align-items: auto; /* Keeps everything left-aligned */
+  }
+  
+  /* Wordmark (Main Title) */
+  .wordmark {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 5px;
+    text-align: ;
+  }
+  
+  /* Line under wordmark */
+  .line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #fff;
+    margin-top: 5px;
+  }
+  
+  /* Subtitle (directly below the wordmark and line) */
+  .subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* Make text white */
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Add hover effect */
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
