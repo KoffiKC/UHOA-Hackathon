@@ -2,6 +2,7 @@ import * as React from "react";
 import "../Header.css";
 import "@fontsource/libre-baskerville/700.css";
 import "@fontsource/source-sans-3/400.css"; 
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./Navbar";
 
 function Header() {
@@ -12,8 +13,10 @@ function Header() {
         <button className="menu-icon">☰</button>
         <input type="text" placeholder="Search..." className="search-bar" />
         <div className="auth-links">
-          <a href="/submit">+ Submit</a>
-          <a href="/signin">Sign in</a>
+        <a href="/submit" className="submit-link"><i class="fa-solid fa-plus"></i> Submit</a>
+          <a href="/signin" className="signin-link">
+          <i className="fa-regular fa-circle-user"></i> Sign In
+        </a>
         </div>
       </div>
 

@@ -87,13 +87,7 @@
   /* Navbar links */
   .navbar a {
     text-decoration: none;
-    color: #fff; /* Make text white */
+    color: #fff !important; /* Make text white */
     font-family: "Source Sans 3", sans-serif;
     font-size: 18px;
   }
-  
-  /* Add hover effect */
-  .navbar a:hover {
-    text-decoration: underline;
-  }
-  
