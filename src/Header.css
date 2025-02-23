@@ -9,6 +9,44 @@
     width: 100%;
   }
   
+  /* Top header styles */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #FBF8F6;
+    width: 100%;
+  }
+  
+  .menu-icon {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    max-width: 300px;
+  }
+  
+  .auth-links a {
+    font-family: "Source Sans 3", sans-serif;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-links a:hover {
+    text-decoration: underline;
+  }
+
   /* Branding section (UHOA + line + subtitle) */
   .branding {
     display: flex;

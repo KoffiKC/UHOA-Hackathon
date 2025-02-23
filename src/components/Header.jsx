@@ -6,14 +6,29 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <header className="header">
-      <div className="branding">
-        <h1 className="wordmark">UHOA</h1>
-        <div className="line"></div>
-        <h2 className="subtitle">Unheard Histories of America</h2>
+     <>
+     {/* Top Header - Now completely separate */}
+     <div className="top-header">
+        <button className="menu-icon">☰</button>
+        <input type="text" placeholder="Search..." className="search-bar" />
+        <div className="auth-links">
+          <a href="/submit">+ Submit</a>
+          <a href="/signin">Sign in</a>
+        </div>
       </div>
-      <Navbar />
-    </header>
+
+      {/* Main Header Section */}
+      <header className="header">
+        <div className="branding">
+          <h1 className="wordmark">UHOA</h1>
+          <div className="line"></div>
+          <h2 className="subtitle">Unheard Histories of America</h2>
+        </div>
+
+        {/* Navbar (now properly positioned under branding) */}
+        <Navbar /> 
+      </header>
+    </>
   );
 }
 
