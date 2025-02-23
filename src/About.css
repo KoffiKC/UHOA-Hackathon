@@ -1,0 +1,50 @@
+.about-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically by default */
+    max-width: 1200px; /* Optional: Limit the width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  @media (min-width: 768px) {
+    .about-container {
+      flex-direction: row; /* Stack items horizontally on larger screens */
+    }
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 20px; /* Add padding */
+    text-align: left;
+  }
+  
+  .about-title {
+    font-size: 1.5rem; /* Title size */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Spacing below title */
+  }
+  
+  .about-mission,
+  .about-disclaimer {
+    font-family: 'Source Sans 3', sans-serif; /* Ensure font is applied */
+    font-size: 1.125rem; /* Adjust size as needed */
+    margin-bottom: 1rem; /* Spacing below paragraphs */
+  }
+  
+  .about-disclaimer-title {
+    font-size: 1.5rem; /* Size for disclaimer title */
+    font-weight: semi-bold;
+    margin-bottom: 0.5rem; /* Spacing below disclaimer title */
+
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    background-color: #f0f0f0; /* Placeholder background color */
+    height: 500px; /* Set height for placeholder */
+    width: 300px; 
+    margin: 40px;
+  }
+  
