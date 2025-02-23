@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Index from "./pages/Index";
 import Topics from "./pages/Topics";
+import About from "./pages/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -44,6 +45,7 @@ function App() {
           }
         />
          <Route path="/index" element={<Index />} />
+         <Route path="/about" element={<About />} />
          <Route path="/topics" element={<Topics />} />
       </Routes>
     </BrowserRouter>
