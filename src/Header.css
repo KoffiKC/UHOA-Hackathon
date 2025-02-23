@@ -6,7 +6,10 @@
     padding: 20px;
     background-color: #2C2926;
     color: #fff;
-    width: 100%;
+    width: 99%;
+    position: fixed;
+    top: 55px;
+    left: 0;
   }
   
   /* Top header styles */
@@ -16,7 +19,10 @@
     align-items: center;
     padding: 10px 20px;
     background: #FBF8F6;
-    width: 100%;
+    width: 98%;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   
   .menu-icon {
